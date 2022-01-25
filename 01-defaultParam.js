@@ -1,8 +1,10 @@
 'use strict';
 
+// Default Parameters
+
 const bookings = [];
 
-//Setting a default value in function
+//Setting a default value in the parameters in the function
 const createBooking = function (
   flightNumber,
   numPassengers = 1,
