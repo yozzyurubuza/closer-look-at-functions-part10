@@ -99,8 +99,9 @@ console.log(addVAT(23));
 
 const addTax2 = rate => value => console.log(`${value + value * rate}`);
 
-const addVAT2 = addTax2(0.23);
+// const addVAT2 = addTax2(0.23);
 
+// Jonas Schmedtmann Implementation
 const addTaxRate = function (rate) {
   return function (value) {
     return value + value * rate;
